@@ -2,14 +2,19 @@
     height: 50px;
     width: 100%;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: self-start;
-    justify-content: center;
+    justify-content: space-evenly;
     font-size: calc(10px + 2vmin);
-    color: red;
     background-color: black;
   }
 
 .text {
+  color: red;
+  display: inline-flex;
   padding-left: 20px;
+}
+.tv-shows {
+  color: white;
+  display: inline-flex;
 }
