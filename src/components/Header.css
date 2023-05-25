@@ -1,20 +1,31 @@
 .App-header {
-    height: 50px;
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    align-items: self-start;
-    justify-content: space-evenly;
-    font-size: calc(10px + 2vmin);
-    background-color: black;
-  }
+  background-color: #000;
+  display: flex;
+  justify-content: space-between;
+  padding: 16px 3%;
+  position: fixed;
+  width: 100%;
+}
 
 .text {
+  display: flex;
+  align-items:center;
   color: red;
-  display: inline-flex;
-  padding-left: 20px;
 }
 .tv-shows {
-  color: white;
-  display: inline-flex;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  font-size: 13px;
+  color:white;
+}
+.join{
+  background-color: #e50914;
+  background-image: linear-gradient(180deg,#e50914,#db0510);
+  box-shadow: 0 1px 0 rgba(0,0,0,.45);
+  color: #fff;
+  border-radius: 5%;
+  font-size: 13px;
+  margin: 0 0 0 8px;
+  padding: 9px 20px;
 }
